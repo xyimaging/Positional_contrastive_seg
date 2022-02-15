@@ -1,0 +1,20 @@
+
+The following have been reloaded with a version change:
+  1) Anaconda3/2021.05 => Anaconda3/5.0.1
+
+Traceback (most recent call last):
+  File "train_contrast.py", line 3, in <module>
+    from utils import *
+  File "/gpfs52/data/h_oguz_lab/xingyao/PREDICT-HD/projects/code/positional_cl/utils.py", line 6, in <module>
+    from scipy.ndimage.filters import gaussian_filter
+  File "/home/yaox3/.conda/envs/for_seg/lib/python3.6/site-packages/scipy/__init__.py", line 155, in <module>
+    from . import fft
+  File "/home/yaox3/.conda/envs/for_seg/lib/python3.6/site-packages/scipy/fft/__init__.py", line 79, in <module>
+    from ._helper import next_fast_len
+  File "/home/yaox3/.conda/envs/for_seg/lib/python3.6/site-packages/scipy/fft/_helper.py", line 3, in <module>
+    from ._pocketfft import helper as _helper
+  File "/home/yaox3/.conda/envs/for_seg/lib/python3.6/site-packages/scipy/fft/_pocketfft/__init__.py", line 3, in <module>
+    from .basic import *
+  File "/home/yaox3/.conda/envs/for_seg/lib/python3.6/site-packages/scipy/fft/_pocketfft/basic.py", line 6, in <module>
+    from . import pypocketfft as pfft
+ImportError: /accre/arch/easybuild/software/Core/GCCcore/5.4.0/lib64/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/yaox3/.conda/envs/for_seg/lib/python3.6/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-36m-x86_64-linux-gnu.so)
